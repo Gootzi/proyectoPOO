@@ -1,4 +1,4 @@
-package ProyectoPOO.src.main.java.com.ChazaPOS;
+package ProyectoPOO.src.main.java.com.ChazaPOS.Negocio;
 
 public class LineaVenta {
     private String nombreProducto;

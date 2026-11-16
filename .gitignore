@@ -1,0 +1,18 @@
+target/
+
+# VS Code
+.vscode/
+
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs y archivos del sistema
+*.log
+.DS_Store
+Thumbs.db

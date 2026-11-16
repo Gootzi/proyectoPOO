@@ -1,13 +1,13 @@
-package com.Ventana;
+package ProyectoPOO.src.main.java.com.ChazaPOS;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Inventario {
     
     private Path carpeta;
     private ProductoRepositorio repo;
-    //private AutenticacionService sesion;
 
     public List<Producto> listar(){};
     public List<Producto> buscar(String texto){};

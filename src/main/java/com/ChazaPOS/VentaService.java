@@ -1,6 +1,6 @@
-package com.Ventana;
+package ProyectoPOO.src.main.java.com.ChazaPOS;
 
-public class VentaService {
+public class VentaService implements ProductoRepositorio,VentaRepositorio {
     private VentaRepositorio ventas;
     private ProductoRepositorio productos;
 

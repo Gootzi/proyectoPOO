@@ -1,4 +1,4 @@
-package com.Ventana;
+package ProyectoPOO.src.main.java.com.ChazaPOS;
 
 import java.util.List;
 import java.util.Optional;

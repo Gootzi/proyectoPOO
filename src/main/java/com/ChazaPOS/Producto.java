@@ -1,4 +1,4 @@
-package com.Ventana;
+package ProyectoPOO.src.main.java.com.ChazaPOS;
 
 public abstract class Producto {
     private int codigo,stock,stockMinimo;

@@ -1,4 +1,4 @@
-package com.Ventana;
+package ProyectoPOO.src.main.java.com.ChazaPOS;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -10,8 +10,16 @@ public class Venta {
     private Usuario vendedor;
     private List<LineaVenta> lineas;
 
-    public void agregarLinea (Producto p, int cantidad){};
-    public double total (){};
+    public void agregarLinea (Producto p, int cantidad){
+        LineaVenta linea = new LineaVenta();
+        lineas.add(linea);
+    };
+    public double total (){
+        double total;
+        for(LineaVenta l: lineas){
+            total += l.subtotal();
+        }
+    };
     public List<LineaVenta> getLineas(){};
     public void cargarLineas(LineaVenta l){};
 }

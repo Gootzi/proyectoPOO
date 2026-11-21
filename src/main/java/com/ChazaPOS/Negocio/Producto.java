@@ -1,4 +1,4 @@
-package ProyectoPOO.src.main.java.com.ChazaPOS.Negocio;
+package com.ChazaPOS.Negocio;
 
 public abstract class Producto {
     private int codigo,stock,stockMinimo;

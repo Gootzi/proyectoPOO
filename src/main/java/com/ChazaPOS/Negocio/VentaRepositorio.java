@@ -1,8 +1,9 @@
-package ProyectoPOO.src.main.java.com.ChazaPOS.Negocio;
+package com.ChazaPOS.Negocio;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public interface VentaRepositorio {
-    public Venta guardar(Venta v){};
-    public List<Venta> buscarFecha(LocalDateTime desde, LocalDateTime hasta){};
+    Venta guardar(Venta v);
+    List<Venta> buscarFecha(LocalDateTime desde, LocalDateTime hasta);
 }

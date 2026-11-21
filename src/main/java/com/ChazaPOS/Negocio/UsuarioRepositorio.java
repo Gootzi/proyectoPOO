@@ -1,9 +1,10 @@
-package ProyectoPOO.src.main.java.com.ChazaPOS.Negocio;
+package com.ChazaPOS.Negocio;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface UsuarioRepositorio {
-    public Optional<Usuario> buscarUsuario(String nombreUsuario){};
-    public List<Usuario> lista(){};
-    public Usuario guardar(Usuario usuario){};
+    Optional<Usuario> buscarUsuario(String nombreUsuario);
+    List<Usuario> lista();
+    Usuario guardar(Usuario usuario);
 }
